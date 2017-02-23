@@ -61,8 +61,8 @@ int main(){
     
     //print out elements in vector
     for(it = testResponse.begin(); it!=testResponse.end(); ++it){
-        std::cout<<*it<<endl;
+        std::cout<<*it<<" ";
     }
-    
+    std::cout<<endl; 
     return 0;
 }
